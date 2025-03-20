@@ -7,6 +7,6 @@ const { document } = (new JSDOM('<!doctype html><html><body></body></html>')).wi
 
 global.document = document
 global.window = document.defaultView
-global.navigator = global.window.navigator
+// global.navigator = global.window.navigator
 
 Enzyme.configure({ adapter: new Adapter() })
